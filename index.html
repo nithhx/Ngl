@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Send Me a Message</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Send me a message</h2>
+    <form action="https://formsubmit.co/formybot57@gmail.com" method="POST" class="message-form">
+      <textarea name="message" placeholder="Your message..." required></textarea>
+      <input type="text" name="name" placeholder="Your name (optional)">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_subject" value="New Anonymous Message!">
+      <button type="submit">Send</button>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
